@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listViewSayilar" type="id" />
+    <item name="listViewSehirler" type="id" />
+    <item name="btnKontrolEt" type="id" />
+</resources>
