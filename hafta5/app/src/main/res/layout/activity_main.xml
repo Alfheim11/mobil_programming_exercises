@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121212"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistem Kontrol"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/glass_button_bg"
+        android:text="BLUETOOTH"
+        android:textColor="#00E5FF"
+        android:textSize="18sp"
+        android:letterSpacing="0.1" />
+
+    <Button
+        android:id="@+id/btnWifi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/glass_button_bg"
+        android:text="Wİ-Fİ"
+        android:textColor="#00E5FF"
+        android:textSize="18sp"
+        android:letterSpacing="0.1" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/glass_button_bg"
+        android:text="KAMERA"
+        android:textColor="#00E5FF"
+        android:textSize="18sp"
+        android:letterSpacing="0.1" />
+
+</LinearLayout>

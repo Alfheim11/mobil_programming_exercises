@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLUETOOTH KONTROL"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnBtAc"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="@drawable/glass_button_bg"
+            android:text="BT AÇ"
+            android:textColor="#00E5FF"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnBtKapat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="@drawable/glass_button_bg"
+            android:text="BT KAPAT"
+            android:textColor="#FF0055"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/btnGorunurOl"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="@drawable/glass_button_bg"
+            android:text="GÖRÜNÜR OL"
+            android:textColor="#00E5FF"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnListele"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="@drawable/glass_button_bg"
+            android:text="LİSTELE"
+            android:textColor="#00E5FF"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cihazListesi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#10FFFFFF"
+        android:divider="#40FFFFFF"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
