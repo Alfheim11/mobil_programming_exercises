@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Güncel Kurlar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E1E24"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/chfText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="CHF: Bekleniyor..."
+            android:textColor="#E0E0E0"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/usdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="USD: Bekleniyor..."
+            android:textColor="#E0E0E0"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/jpyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="JPY: Bekleniyor..."
+            android:textColor="#E0E0E0"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="TRY: Bekleniyor..."
+            android:textColor="#E0E0E0"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/cadText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAD: Bekleniyor..."
+            android:textColor="#E0E0E0"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:text="KURLARI GETİR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
