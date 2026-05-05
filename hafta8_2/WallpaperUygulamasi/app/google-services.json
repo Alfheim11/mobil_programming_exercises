@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883355766659",
+    "project_id": "wallpaper-uygulamasi-2026",
+    "storage_bucket": "wallpaper-uygulamasi-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883355766659:android:e61d615335fd60ed7730b6",
+        "android_client_info": {
+          "package_name": "com.info.wallpaperuygulamasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSoyUEzt3qjCG-muKS2WzeTlHPD-xQkm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

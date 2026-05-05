@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F6F9"
+    android:padding="20dp">
+
+    <!-- Soru Kartı -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/tvSoru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:lineSpacingExtra="4dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Seçenekler -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroupSecenekler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton android:id="@+id/rbA" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:padding="12dp" android:layout_marginBottom="8dp"/>
+            <RadioButton android:id="@+id/rbB" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:padding="12dp" android:layout_marginBottom="8dp"/>
+            <RadioButton android:id="@+id/rbC" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:padding="12dp" android:layout_marginBottom="8dp"/>
+            <RadioButton android:id="@+id/rbD" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:padding="12dp" android:layout_marginBottom="8dp"/>
+            <RadioButton android:id="@+id/rbE" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:padding="12dp"/>
+        </RadioGroup>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Esnek Boşluk (Butonu en alta iter) -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnCevapla"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Cevapla ve İlerle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
